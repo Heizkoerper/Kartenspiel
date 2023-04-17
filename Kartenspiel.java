@@ -1,11 +1,23 @@
 public class Kartenspiel {
 
-    private Karte[] karten;
-    public void Kartenspiel() {
-        // Erstelle ein Array mit 32 Karten
-        karten = new Karte[32];
+    // Deklariere eine neue List fuer die Karten
+    private List<Karte> karten;
 
-        // Füge die Karten eines standard 32 Karten Kartenspiels hinzu
+    public void Kartenspiel() {
+
+        // Initialisiere die Liste
+        karten = new List<Karte>();
+
+        // Erstelle ein neues Kartenspiel und fuege es der Liste hinzu
+        String[] farben = {"Karo", "Herz", "Pik", "Kreuz"};
+        String[] bilder = {"7", "8", "9", "10", "Bube", "Dame", "König", "Ass"};
+
+        for(String farbe : farben) {
+            for(String bild : bilder) {
+                karten.append(new Karte(farbe, bild));
+            }
+        }
 
     }
+
 }
