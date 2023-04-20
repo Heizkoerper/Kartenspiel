@@ -6,6 +6,7 @@
 Diese Methode soll das Kartenspiel mischen. Dazu sollen 32 Mal zwei zufällig ausgewählte Karten ihren Platz tauschen.
 
 ### Visualisierung
+![OIP](https://user-images.githubusercontent.com/110174069/233306776-e2e8705f-c38a-49d5-9b18-487609015900.jpg)
 
 ### Teilprobleme
 Das Problem ist in zwei Teilprobleme zu unterteilen:
