@@ -22,7 +22,7 @@ Hierfür wird eine Hilfskarte verwendet, welche die erste Karte zwischenspeicher
 </ol>
 
 ### Implementation
-![image](https://user-images.githubusercontent.com/110174069/233684294-7e02b0c4-8c05-4572-80e1-480d015b7dd2.png)
+![code](https://user-images.githubusercontent.com/110174069/233977946-cb0a1ac3-5959-4ba2-b255-e7deb09f481d.png)
 ![image](https://user-images.githubusercontent.com/110174069/233684403-98424466-7785-4910-9022-1ded8ddc6ede.png)
 
 
@@ -38,7 +38,8 @@ Diese Methode soll überprüfen ob eine bestimmte Karte nach Farbe und Bild vorh
 <i>Noch nicht hinzugefügt</i>
 
 ### Implementation
-![image](https://user-images.githubusercontent.com/110174069/233684651-1130d562-ff45-474b-969e-ecb6792a90bb.png)
+![code](https://user-images.githubusercontent.com/110174069/233978319-95bc9b98-acf9-4a73-90f4-cce3d7b0a463.png)
+
 
 
 ## Aussortieren
@@ -57,4 +58,5 @@ Anschließend muss die Aktuelle Karte abgefragt werden um die Farbe dieser festz
 Ist die Farbe der Karte gleich der auszusortierenden Farbe, so wird diese mit einem Null-Pointer ersetzt.
 
 ### Implementation
-![image](https://user-images.githubusercontent.com/110174069/233684589-cf2cf7a0-a74a-42e6-b5d7-1f4dd364e52d.png)
+![code](https://user-images.githubusercontent.com/110174069/233978436-20ba0cb5-42c7-48d4-9b76-eb6436712d30.png)
+
