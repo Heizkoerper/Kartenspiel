@@ -63,10 +63,10 @@ public class Kartenspiel {
     **/
     public void aussortieren(String pFarbe) {
 
-        for (int i = 0; i < Kartendeck.length; i++) {
+        for (int i = 0; i < karten.length; i++) {
 
-            if (Kartendeck[i].getFarbe().equals(pFarbe)) {
-                Kartendeck[i] = null;
+            if (karten[i].getFarbe().equals(pFarbe)) {
+                karten[i] = null;
             }
 
         }
@@ -82,7 +82,7 @@ public class Kartenspiel {
      */
     public boolean vorhanden(String pFarbe, String pBild) {
 
-        for (Karte karte : Kartendeck) {
+        for (Karte karte : karten) {
 
             if (karte.getFarbe().equals(pFarbe) && karte.getBild().equals(pBild)) {
                 return true;
