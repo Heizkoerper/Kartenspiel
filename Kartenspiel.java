@@ -34,9 +34,8 @@ public class Kartenspiel {
             int a = (int) Math.random() * 31;
             int b = (int) Math.random() * 31;
 
-            if (a == b) return;  // Terminiere, wenn es zwei mal die selbe Karte ist
+            if (a != b) tauschen(a, b);  // Tausche nur, wenn es nicht die selbe Karte ist
 
-            tauschen(a, b);
 
         }
 
